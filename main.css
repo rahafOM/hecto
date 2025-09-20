@@ -726,6 +726,90 @@ ul {
 
 /* end clients */
 
+/*--blog--*/
+
+.blogs .container {
+    width: 90%;
+    padding: 20px;
+}
+
+.blogs .row{
+    justify-content: center;
+}
+
+.blog-title {
+    text-align: center;
+    font-family: Josefin Sans;
+    color: rgba(26, 11, 91, 1);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-weight: 600;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.blogs .products-card {
+    padding: 20px;
+    margin: 10px;
+    width: 350px;
+    box-shadow: 0px 0px 10px #d1cece;
+    border-radius: 10px;
+}
+.blogs .products-card:hover h3{
+color:#F701A8
+}
+.blogs .products-card:hover a{
+color:#F701A8
+}
+.blogs .product-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+    line-height: 15px;
+    padding: 0px 10px 20px 10px;
+}
+
+.blogs .product-info h3 {
+    color: rgba(21, 24, 117, 1);
+    font-family: Josefin Sans;
+}
+
+.blogs .product-info p {
+color: rgba(114, 113, 143, 1);
+font-family: Lato;
+}
+
+
+.blogs .product-info a {
+    text-decoration: underline;
+    font-family: Lato;
+    }
+    
+
+.blogs .blog-product {
+    border-radius: 50%;
+    background-color: rgba(245, 246, 248, 1);
+    box-sizing: border-box;
+}
+
+.blogs .blog-product img {
+    border-radius: 10px;
+    width: 100%;
+}
+.blogs .date{
+    font-family: Lato;
+    color: rgba(21, 24, 117, 1);
+    display: flex;
+    gap: 60px;
+    padding: 15px 5px;
+}
+
+/* end blog*/
+
 /* --footer-- */
 
 .footer {
@@ -850,6 +934,7 @@ ul {
   .promotional-page-nav img {
     display: none;
   }
+  
 }
 
 @media screen and (max-width: 992px) {
@@ -981,5 +1066,60 @@ ul {
   .new-slater .row {
     display: flex;
     flex-direction: row;
+  }
+}
+@media screen and (max-width: 768px) {
+  .featured-products .row,
+  .trending .row,
+  .top .row,
+  .blogs .row,
+  .Leatest-products .craft,
+  .shopix .row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product-card,
+  .products-card,
+  .img-content,
+  .shopix-offers {
+    width: 90% !important;
+    margin-bottom: 20px;
+  }
+
+  .Leatest-products {
+    padding: 60px 20px;
+  }
+
+  .unique .container {
+    margin: 20px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .unique-img,
+  .unique-content {
+    width: 100%;
+  }
+
+  .trending .container {
+    padding: 20px;
+  }
+
+  .blogs .products-card {
+    width: 100%;
+    max-width: 320px;
+  }
+}
+@media screen and (max-width: 480px) {
+
+  .text-content h1 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .clients {
+    flex-direction: column;
+    gap: 20px;
   }
 }
