@@ -541,6 +541,151 @@ ul {
 }
 
 /* end unique */
+
+/*trending start*/
+.trending .container {
+    width: 87%;
+    padding: 100px;
+}
+
+.trending .row {
+    justify-content: center;
+}
+
+.trending-title {
+    text-align: center;
+    font-family:Josefin Sans ;
+    color: rgba(26, 11, 91, 1);
+    padding-top: 100px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-size: 25px;
+}
+.trending .product-card {
+    padding: 10px;
+    box-shadow: 0px 0px 13px #e7e7e7;
+    margin: 20px;
+    cursor: pointer;
+}
+.trending .product-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    text-align: center;
+    line-height: 15px;
+    background-color: transparent;
+    padding: 20px;
+    color: rgba(21, 24, 117, 1);
+}
+.product-info span {
+    color: rgba(21, 24, 117, 0.3);
+    text-decoration: line-through;
+    font-size: 12px;
+}
+
+.product-info p {
+    word-spacing: 10px;
+    font-size: 15px;
+    font-family: Josefin Sans;
+}
+
+.product-info h3{
+  font-family: Lato;
+}
+.trending .product-card:hover{
+  background: none;
+  border: none;
+}
+/*trending end*/
+
+/*top start*/
+
+.top .container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.top-title {
+    text-align: center;
+    font-family: Josefin Sans;
+    color: rgba(26, 11, 91, 1);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-weight: 600;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.top .products-card {
+    padding: 10px;
+    margin: 10px;
+}
+
+.top .product-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 15px;
+    padding: 10px;
+    color: rgba(21, 24, 117, 1);
+    font-family: Lato;
+}
+
+.top .top-product {
+    border-radius: 50%;
+    background-color: rgba(245, 246, 248, 1);
+    box-sizing: border-box;
+    padding: 50px;
+}
+.first-top {
+    box-shadow: -5px 5px rgb(154 57 233);
+    position: relative;
+}
+
+
+.top .shop-btn {
+    background-color: rgba(8, 209, 95, 1);
+    border-radius: 5px;
+    width: 55px;
+    height: 5px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-family: Lato;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-property: width, background-color;
+    transition-duration: 0.25s;
+    position: absolute;
+    bottom: 16px;
+    left: 90px;
+}
+
+.top .shop-btn:hover {
+    background-color: rgb(6, 173, 79);
+}
+
+.top .top-product img {
+    width: 150px;   
+    height: 150px;  
+    object-fit: contain; 
+    display: block;
+    margin: auto;   
+}
+/*top end*/
+
+
 /*--new slater--*/
 .new-slater {
   padding: 176px;
