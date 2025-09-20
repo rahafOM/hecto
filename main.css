@@ -16,7 +16,7 @@ ul {
   font-weight: 600;
   padding: 57px 0px;
 }
- 
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -177,14 +177,7 @@ ul {
   gap: 20px;
 }
 
-/* .product-card .badge-sale img{
-    position: absolute;
-    top: -4px;
-    left: -9px;
-    width: 125px;
-    
-  } */
- .product-card:hover .icon {
+.product-card:hover .icon {
   display: inline;
   position: absolute;
   width: 9px;
@@ -211,7 +204,7 @@ ul {
   text-align: center;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   background: #fff;
-  transition: all 0.4s;
+  transition: all 0.7s;
   position: relative;
 }
 
@@ -224,20 +217,25 @@ ul {
   justify-content: center;
   background-color: #F6F7FB;
 }
-.chair-wrapper button , .product-card .icon{
+
+.chair-wrapper button,
+.product-card .icon {
   display: none;
 }
-.product-card:hover .chair-wrapper button{
+
+.product-card:hover .chair-wrapper button {
   display: inline;
   background-color: #08D15F;
   color: #FFFFFF;
-  font-family:Josefin Sans ;
+  font-family: Josefin Sans;
   border: none;
   outline: none;
   padding: 8px;
   border-radius: 5px;
   cursor: pointer;
+
 }
+
 .product-card .chair {
   width: 100%;
   height: 150px;
@@ -307,6 +305,130 @@ ul {
 }
 
 /* end featured*/
+
+/*--leatest-products--*/
+
+.Leatest-products {
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  color: #1A0B5B;
+  padding: 140px 0;
+
+}
+
+.Leatest-products .row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 19px;
+}
+
+.title {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.title a {
+  cursor: pointer;
+  font-family: Lato;
+  color: #00009D;
+}
+
+.title .pink {
+  color: #F701A8;
+  text-decoration: underline;
+}
+
+.craft {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.img {
+  background-color: #F7F7F7;
+  position: relative;
+
+}
+
+.img img {
+  width: 250px;
+  height: 130px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.img-content .img-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 10px;
+}
+
+.img-text .price {
+  padding-top: 10px;
+  padding-left: 2px;
+}
+
+.img-text p {
+  text-decoration: underline #EEEFFB;
+}
+
+.img-text .price .red {
+  color: red;
+  text-decoration: line-through;
+}
+
+.yellow-img {
+  background-color: #FFFFFF;
+}
+
+.img .badge-sale {
+  position: absolute;
+  top: -45px;
+  left: -4px;
+  width: 72px;
+}
+
+.img-content .icon {
+  display: none;
+}
+
+.img-content {
+  position: relative;
+}
+
+.img-content .icon {
+  position: absolute;
+  top: 60px;
+  left: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  z-index: 1;
+}
+
+.img-content:hover .icon {
+  opacity: 1;
+}
+
+.img-content .icon img {
+  width: 20px;
+  height: 15px;
+  object-fit: contain;
+  cursor: pointer;
+  padding: 2px;
+  transition: transform 0.2s;
+}
+
+.img-content .icon img:hover {
+  transform: scale(1.1);
+}
 
 /*--new slater--*/
 .new-slater {
