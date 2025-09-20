@@ -312,7 +312,7 @@ ul {
   text-align: center;
   font-family: "Josefin Sans", sans-serif;
   color: #1A0B5B;
-  padding: 140px 0;
+  padding: 200px ;
 
 }
 
@@ -355,8 +355,8 @@ ul {
 }
 
 .img img {
-  width: 250px;
-  height: 130px;
+  width: 300px;
+  height: 230px;
   object-fit: contain;
   cursor: pointer;
 }
@@ -388,9 +388,9 @@ ul {
 
 .img .badge-sale {
   position: absolute;
-  top: -45px;
-  left: -4px;
-  width: 72px;
+  top: -100px;
+  left: -9px;
+  width: 80px;
 }
 
 .img-content .icon {
@@ -403,7 +403,7 @@ ul {
 
 .img-content .icon {
   position: absolute;
-  top: 60px;
+  top: 160px;
   left: 5px;
   display: flex;
   flex-direction: column;
@@ -429,7 +429,118 @@ ul {
 .img-content .icon img:hover {
   transform: scale(1.1);
 }
+/* end leastest */
 
+/*--shopex--*/
+.shopix-title {
+    text-align: center;
+    color: rgba(26, 11, 91, 1);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-weight: 600;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 47px;
+    font-family: Josefin Sans;
+}
+
+.shopix .row {
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.shopix-offers {
+    width: 200px;
+    color: rgba(21, 24, 117, 1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: Josefin Sans;
+    margin: 15px;
+    box-shadow: 0px 0px 10px #e9e9e9;
+    padding: 45px 15px;
+}
+
+.shopix-offers p {
+    color: rgba(26, 11, 91, 0.3);
+    font-family: Lato;
+
+}
+
+/* end shopex */
+
+/*--unique features--*/
+.unique {
+    background-color: rgba(241, 240, 255, 1);
+}
+.unique .container{
+  margin: 70px;
+}
+.unique-img {
+    width: 40%;
+}
+.unique-img img {
+    width: 100%;
+}
+.unique-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-grow: 1;
+    width: 40%;
+    box-sizing: border-box;
+    padding: 20px;
+    gap: 20px;
+}
+.unique-content h2 {
+    color: rgba(21, 24, 117, 1);
+    font-family: Josefin Sans;
+    font-size: 35px;
+    line-height: 45px;
+}
+.unique-content p {
+    font-size: 16px;
+    color: rgba(172, 171, 195, 1);
+    font-family: Lato;
+}
+.unique-content .shop-now {
+    background-color: #FB2E86;
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 120px;
+    height: 25px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-family: Josefin Sans;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-property: width background-color;
+    transition-duration: 0.25s;
+}
+.unique-content .shop-now:hover {
+    width: 125px;
+    background-color: rgb(196, 12, 91);
+}
+.unique-content .group {
+    display: flex;
+    gap: 20px;
+    font-family:Lato;
+    align-items: center;
+}
+.unique-content .group p {
+    color: rgba(21, 24, 117, 1);
+    font-family:Josefin Sans ;
+}
+
+/* end unique */
 /*--new slater--*/
 .new-slater {
   padding: 176px;
